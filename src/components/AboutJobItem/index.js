@@ -82,7 +82,7 @@ class AboutJobItem extends Component {
       })
     } else {
         this.setState({
-            apiStatus.apiStatusConstants.failure,
+            apiStatus:apiStatusConstants.failure,
         })
     }
   }
