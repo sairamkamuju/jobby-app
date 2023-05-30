@@ -87,7 +87,7 @@ class AllJobs extends Component {
       },
       method: 'GET',
     }
-    const responseProfile = await fetch(profileApiUrl, optionsProfile)
+    const responseProfile = await fetch(profileApiUrl, optionProfile)
 
     if (responseProfile.ok === true) {
       const fetchedDataProfile = [await responseProfile.json()]
